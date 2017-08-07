@@ -170,6 +170,7 @@ class DefaultTestSelector(DefaultTestSelectorBase):
             "platform_name" : self.options.micro,
             "image_path" : self.mbed.image_path,
             "skip_reset": self.options.skip_reset,
+            "tags" : self.options.allocate_on_tag
         }
 
         if self.options.global_resource_mgr:
