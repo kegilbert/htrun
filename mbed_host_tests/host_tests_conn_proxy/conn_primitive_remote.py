@@ -32,11 +32,13 @@ class RemoteConnectorPrimitive(ConnectorPrimitive):
         self.image_path = config.get('image_path', None)
         self.polling_timeout = int(config.get('polling_timeout', 60))
         self.tags = config.get('tags', None)
+        self.allocate_requirements = { "platform_name": self.platform_name }
 
         if(self.tags):
             self.tags = {}
             for tag in config.get('tags', None).split(','):
                 self.tags[tag] = True
+            self.allocate_requirements["tags"] = self.tags
 
         # Global Resource Mgr tool-kit
         self.remote_module = None
@@ -69,15 +71,8 @@ class RemoteConnectorPrimitive(ConnectorPrimitive):
         # Query for available resource
         # Automatic selection and allocation of a resource
         try:
-            if self.tags:
-                self.selected_resource = self.client.allocate({
-                    "platform_name": self.platform_name,
-                    "tags": self.tags
-                })
-            else:
-                self.selected_resource = self.client.allocate({
-                    "platform_name": self.platform_name,
-                })
+            self.selected_resource = self.client.allocate(self.allocate_requirements)
+
         except self.remote_module.resources.ResourceError as e:
             self.logger.prn_err("can't allocate resource: '%s', reason: %s"% (self.platform_name, str(e)))
             return False
