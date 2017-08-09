@@ -31,14 +31,12 @@ class RemoteConnectorPrimitive(ConnectorPrimitive):
         self.baudrate = config.get('baudrate', DEFAULT_BAUD_RATE)
         self.image_path = config.get('image_path', None)
         self.polling_timeout = int(config.get('polling_timeout', 60))
-        self.tags = config.get('tags', None)
         self.allocate_requirements = { "platform_name": self.platform_name }
 
-        if(self.tags):
-            self.tags = {}
+        if(config.get('tags', None)):
+            self.allocate_requirements["tags"] = {}
             for tag in config.get('tags', None).split(','):
-                self.tags[tag] = True
-            self.allocate_requirements["tags"] = self.tags
+                self.allocate_requirements["tags"][tag] = True
 
         # Global Resource Mgr tool-kit
         self.remote_module = None
