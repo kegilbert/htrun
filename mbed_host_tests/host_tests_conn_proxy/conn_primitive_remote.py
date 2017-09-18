@@ -19,6 +19,7 @@ limitations under the License.
 from mbed_host_tests import DEFAULT_BAUD_RATE
 from mbed_host_tests.host_tests_conn_proxy.conn_primitive import ConnectorPrimitive
 
+
 class RemoteConnectorPrimitive(ConnectorPrimitive):
     def __init__(self, name, config):
         ConnectorPrimitive.__init__(self, name)
