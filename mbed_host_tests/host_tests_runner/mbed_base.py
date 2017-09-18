@@ -53,7 +53,7 @@ class Mbed:
         self.serial_baud = DEFAULT_BAUD_RATE
         self.serial_timeout = 1
 
-        self.tags = self.options.allocate_on_tag
+        self.tags = self.options.tag_filters
 
         # Users can use command to pass port speeds together with port name. E.g. COM4:115200:1
         # Format if PORT:SPEED:TIMEOUT

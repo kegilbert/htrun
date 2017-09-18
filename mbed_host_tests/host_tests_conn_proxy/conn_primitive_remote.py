@@ -33,9 +33,9 @@ class RemoteConnectorPrimitive(ConnectorPrimitive):
         self.polling_timeout = int(config.get('polling_timeout', 60))
         self.allocate_requirements = { "platform_name": self.platform_name }
 
-        if(config.get('tags', None)):
+        if self.config["tags"]:
             self.allocate_requirements["tags"] = {}
-            for tag in config.get('tags', None).split(','):
+            for tag in config["tags"].split(','):
                 self.allocate_requirements["tags"][tag] = True
 
         # Global Resource Mgr tool-kit

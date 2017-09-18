@@ -1,0 +1,402 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BaseHostTest	host_tests/base_host_test.py	/^class BaseHostTest(HostTestCallbackBase):$/;"	c
+BaseHostTestAbstract	host_tests/base_host_test.py	/^class BaseHostTestAbstract(object):$/;"	c
+ConnectorPrimitive	host_tests_conn_proxy/conn_primitive.py	/^class ConnectorPrimitive(object):$/;"	c
+ConnectorPrimitiveException	host_tests_conn_proxy/conn_primitive.py	/^class ConnectorPrimitiveException(Exception):$/;"	c
+DEFAULT_BAUD_RATE	__init__.py	/^DEFAULT_BAUD_RATE = 9600$/;"	v
+DEVIATION	host_tests/wait_us_auto.py	/^    DEVIATION = 0.10    # +\/-10%$/;"	v	class:WaitusTest
+DefaultAuto	host_tests/default_auto.py	/^class DefaultAuto(BaseHostTest):$/;"	c
+DefaultTestSelector	host_tests_runner/host_test_default.py	/^class DefaultTestSelector(DefaultTestSelectorBase):$/;"	c
+DefaultTestSelectorBase	host_tests_runner/host_test.py	/^class DefaultTestSelectorBase(Test):$/;"	c
+DetectPlatformTest	host_tests/detect_auto.py	/^class DetectPlatformTest(BaseHostTest):$/;"	c
+DevNullTest	host_tests/dev_null_auto.py	/^class DevNullTest(BaseHostTest):$/;"	c
+EchoTest	host_tests/echo.py	/^class EchoTest(BaseHostTest):$/;"	c
+HELLO_WORLD	host_tests/hello_auto.py	/^    HELLO_WORLD = "Hello World"$/;"	v	class:HelloTest
+HOSTREGISTRY	__init__.py	/^HOSTREGISTRY = HostRegistry()$/;"	v
+HOST_TESTS	host_tests_registry/host_registry.py	/^    HOST_TESTS = {} # Map between host_test_name -> host_test_object$/;"	v	class:HostRegistry
+HOST_TEST_PLUGIN_REGISTRY	host_tests_plugins/__init__.py	/^HOST_TEST_PLUGIN_REGISTRY = host_test_registry.HostTestRegistry()$/;"	v
+HelloTest	host_tests/hello_auto.py	/^class HelloTest(BaseHostTest):$/;"	c
+HostRegistry	host_tests_registry/host_registry.py	/^class HostRegistry:$/;"	c
+HostTestCallbackBase	host_tests/base_host_test.py	/^class HostTestCallbackBase(BaseHostTestAbstract):$/;"	c
+HostTestPluginBase	host_tests_plugins/host_test_plugins.py	/^class HostTestPluginBase:$/;"	c
+HostTestPluginCopyMethod_JN51xx	host_tests_plugins/module_copy_jn51xx.py	/^class HostTestPluginCopyMethod_JN51xx(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_MPS2	host_tests_plugins/module_copy_mps2.py	/^class HostTestPluginCopyMethod_MPS2(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_Mbed	host_tests_plugins/module_copy_mbed.py	/^class HostTestPluginCopyMethod_Mbed(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_Shell	host_tests_plugins/module_copy_shell.py	/^class HostTestPluginCopyMethod_Shell(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_Silabs	host_tests_plugins/module_copy_silabs.py	/^class HostTestPluginCopyMethod_Silabs(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_Stlink	host_tests_plugins/module_copy_stlink.py	/^class HostTestPluginCopyMethod_Stlink(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_pyOCD	host_tests_plugins/module_copy_pyocd.py	/^class HostTestPluginCopyMethod_pyOCD(HostTestPluginBase):$/;"	c
+HostTestPluginCopyMethod_ublox	host_tests_plugins/module_copy_ublox.py	/^class HostTestPluginCopyMethod_ublox(HostTestPluginBase):$/;"	c
+HostTestPluginPowerCycleResetMethod	host_tests_plugins/module_power_cycle_mbed.py	/^class HostTestPluginPowerCycleResetMethod(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_JN51xx	host_tests_plugins/module_reset_jn51xx.py	/^class HostTestPluginResetMethod_JN51xx(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_MPS2	host_tests_plugins/module_reset_mps2.py	/^class HostTestPluginResetMethod_MPS2(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_Mbed	host_tests_plugins/module_reset_mbed.py	/^class HostTestPluginResetMethod_Mbed(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_SiLabs	host_tests_plugins/module_reset_silabs.py	/^class HostTestPluginResetMethod_SiLabs(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_Stlink	host_tests_plugins/module_reset_stlink.py	/^class HostTestPluginResetMethod_Stlink(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_pyOCD	host_tests_plugins/module_reset_pyocd.py	/^class HostTestPluginResetMethod_pyOCD(HostTestPluginBase):$/;"	c
+HostTestPluginResetMethod_ublox	host_tests_plugins/module_reset_ublox.py	/^class HostTestPluginResetMethod_ublox(HostTestPluginBase):$/;"	c
+HostTestRegistry	host_tests_plugins/host_test_registry.py	/^class HostTestRegistry:$/;"	c
+HostTestResults	host_tests_runner/host_test.py	/^class HostTestResults(object):$/;"	c
+HtrunLogger	host_tests_logger/ht_logger.py	/^class HtrunLogger(object):$/;"	c
+KiViBufferWalker	host_tests_conn_proxy/conn_proxy.py	/^class KiViBufferWalker():$/;"	c
+Mbed	host_tests_runner/mbed_base.py	/^class Mbed:$/;"	c
+PATTERN_MICRO_NAME	host_tests/detect_auto.py	/^    PATTERN_MICRO_NAME = "Target '(\\w+)'"$/;"	v	class:DetectPlatformTest
+PATTERN_RTC_VALUE	host_tests/rtc_auto.py	/^    PATTERN_RTC_VALUE = "\\[(\\d+)\\] \\[(\\d+-\\d+-\\d+ \\d+:\\d+:\\d+ [AaPpMm]{2})\\]"$/;"	v	class:RTCTest
+PLUGINS	host_tests_plugins/host_test_registry.py	/^    PLUGINS = {}    # 'Plugin Name' : Plugin Object$/;"	v	class:HostTestRegistry
+RESET_TYPE_HW_RST	host_tests_runner/host_test_default.py	/^    RESET_TYPE_HW_RST   = "hardware_reset"$/;"	v	class:DefaultTestSelector
+RESET_TYPE_SW_RST	host_tests_runner/host_test_default.py	/^    RESET_TYPE_SW_RST   = "software_reset"$/;"	v	class:DefaultTestSelector
+RTCTest	host_tests/rtc_auto.py	/^class RTCTest(BaseHostTest):$/;"	c
+RemoteConnectorPrimitive	host_tests_conn_proxy/conn_primitive_remote.py	/^class RemoteConnectorPrimitive(ConnectorPrimitive):$/;"	c
+SerialConnectorPrimitive	host_tests_conn_proxy/conn_primitive_serial.py	/^class SerialConnectorPrimitive(ConnectorPrimitive):$/;"	c
+Test	host_tests_runner/host_test.py	/^class Test(HostTestResults):$/;"	c
+WaitusTest	host_tests/wait_us_auto.py	/^class WaitusTest(BaseHostTest):$/;"	c
+__BaseHostTest_Called	host_tests/base_host_test.py	/^    __BaseHostTest_Called = False$/;"	v	class:BaseHostTest
+__assign_decorated_callbacks	host_tests/base_host_test.py	/^    def __assign_decorated_callbacks(self):$/;"	m	class:HostTestCallbackBase	file:
+__assign_default_callbacks	host_tests/base_host_test.py	/^    def __assign_default_callbacks(self):$/;"	m	class:HostTestCallbackBase	file:
+__callback_default	host_tests/base_host_test.py	/^    def __callback_default(self, key, value, timestamp):$/;"	m	class:HostTestCallbackBase	file:
+__config	host_tests/base_host_test.py	/^    __config = {}$/;"	v	class:BaseHostTestAbstract
+__default_end_callback	host_tests/base_host_test.py	/^    def __default_end_callback(self, key, value, timestamp):$/;"	m	class:HostTestCallbackBase	file:
+__del__	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __del__(self):$/;"	m	class:RemoteConnectorPrimitive	file:
+__del__	host_tests_conn_proxy/conn_primitive_serial.py	/^    def __del__(self):$/;"	m	class:SerialConnectorPrimitive	file:
+__dut_event_queue	host_tests/base_host_test.py	/^    __dut_event_queue = None    # To DUT$/;"	v	class:BaseHostTestAbstract
+__event_queue	host_tests/base_host_test.py	/^    __event_queue = None        # To main even loop$/;"	v	class:BaseHostTestAbstract
+__get_mbed_tas_rm_addr	host_tests_plugins/module_power_cycle_mbed.py	/^    def __get_mbed_tas_rm_addr(self):$/;"	m	class:HostTestPluginPowerCycleResetMethod	file:
+__getitem__	host_tests_runner/host_test.py	/^    def __getitem__(self, test_result_str):$/;"	m	class:HostTestResults	file:
+__hw_reset	host_tests_plugins/module_power_cycle_mbed.py	/^    def __hw_reset(self, ip, port, target_id, device_info):$/;"	m	class:HostTestPluginPowerCycleResetMethod	file:
+__init__	host_tests/base_host_test.py	/^    def __init__(self):$/;"	m	class:BaseHostTest
+__init__	host_tests/base_host_test.py	/^    def __init__(self):$/;"	m	class:HostTestCallbackBase
+__init__	host_tests_conn_proxy/conn_primitive.py	/^    def __init__(self, name):$/;"	m	class:ConnectorPrimitive
+__init__	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __init__(self, name, config):$/;"	m	class:RemoteConnectorPrimitive
+__init__	host_tests_conn_proxy/conn_primitive_serial.py	/^    def __init__(self, name, port, baudrate, config):$/;"	m	class:SerialConnectorPrimitive
+__init__	host_tests_conn_proxy/conn_proxy.py	/^    def __init__(self):$/;"	m	class:KiViBufferWalker
+__init__	host_tests_logger/ht_logger.py	/^    def __init__(self, name):$/;"	m	class:HtrunLogger
+__init__	host_tests_plugins/host_test_plugins.py	/^    def __init__(self):$/;"	m	class:HostTestPluginBase
+__init__	host_tests_plugins/module_copy_jn51xx.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_JN51xx
+__init__	host_tests_plugins/module_copy_mbed.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_Mbed
+__init__	host_tests_plugins/module_copy_mps2.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_MPS2
+__init__	host_tests_plugins/module_copy_pyocd.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_pyOCD
+__init__	host_tests_plugins/module_copy_shell.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_Shell
+__init__	host_tests_plugins/module_copy_silabs.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_Silabs
+__init__	host_tests_plugins/module_copy_stlink.py	/^    def __init__(self):$/;"	m	class:HostTestPluginCopyMethod_Stlink
+__init__	host_tests_plugins/module_power_cycle_mbed.py	/^    def __init__(self):$/;"	m	class:HostTestPluginPowerCycleResetMethod
+__init__	host_tests_plugins/module_reset_jn51xx.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_JN51xx
+__init__	host_tests_plugins/module_reset_mbed.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_Mbed
+__init__	host_tests_plugins/module_reset_mps2.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_MPS2
+__init__	host_tests_plugins/module_reset_pyocd.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_pyOCD
+__init__	host_tests_plugins/module_reset_silabs.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_SiLabs
+__init__	host_tests_plugins/module_reset_stlink.py	/^    def __init__(self):$/;"	m	class:HostTestPluginResetMethod_Stlink
+__init__	host_tests_runner/host_test.py	/^    def __init__(self):$/;"	m	class:HostTestResults
+__init__	host_tests_runner/host_test.py	/^    def __init__(self, options):$/;"	m	class:DefaultTestSelectorBase
+__init__	host_tests_runner/host_test.py	/^    def __init__(self, options):$/;"	m	class:Test
+__init__	host_tests_runner/host_test_default.py	/^    def __init__(self, options):$/;"	m	class:DefaultTestSelector
+__init__	host_tests_runner/mbed_base.py	/^    def __init__(self, options):$/;"	m	class:Mbed
+__notify_conn_lost	host_tests/base_host_test.py	/^    def __notify_conn_lost(self, text):$/;"	m	class:BaseHostTestAbstract	file:
+__notify_conn_lost	host_tests_conn_proxy/conn_proxy.py	/^    def __notify_conn_lost():$/;"	f	function:conn_process	file:
+__notify_dut	host_tests/base_host_test.py	/^    def __notify_dut(self, key, value):$/;"	m	class:BaseHostTestAbstract	file:
+__notify_prn	host_tests/base_host_test.py	/^    def __notify_prn(self, text):$/;"	m	class:BaseHostTestAbstract	file:
+__notify_sync_failed	host_tests/base_host_test.py	/^    def __notify_sync_failed(self, text):$/;"	m	class:BaseHostTestAbstract	file:
+__notify_sync_failed	host_tests_conn_proxy/conn_proxy.py	/^    def __notify_sync_failed():$/;"	f	function:conn_process	file:
+__prn_log	host_tests_logger/ht_logger.py	/^        def __prn_log(self, logger_level, text, timestamp=None):$/;"	f	function:HtrunLogger.__init__	file:
+__remote_connect	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __remote_connect(self, baudrate=DEFAULT_BAUD_RATE, buffer_size=6):$/;"	m	class:RemoteConnectorPrimitive	file:
+__remote_disconnect	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __remote_disconnect(self):$/;"	m	class:RemoteConnectorPrimitive	file:
+__remote_flashing	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __remote_flashing(self, filename, forceflash=False):$/;"	m	class:RemoteConnectorPrimitive	file:
+__remote_init	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __remote_init(self):$/;"	m	class:RemoteConnectorPrimitive	file:
+__remote_reset	host_tests_conn_proxy/conn_primitive_remote.py	/^    def __remote_reset(self):$/;"	m	class:RemoteConnectorPrimitive	file:
+__result	host_tests/dev_null_auto.py	/^    __result = None$/;"	v	class:DevNullTest
+__result	host_tests/echo.py	/^    __result = None$/;"	v	class:EchoTest
+__result	host_tests/hello_auto.py	/^    __result = None$/;"	v	class:HelloTest
+__result	host_tests/rtc_auto.py	/^    __result = None$/;"	v	class:RTCTest
+__result	host_tests/wait_us_auto.py	/^    __result = None$/;"	v	class:WaitusTest
+__run_request	host_tests_plugins/module_power_cycle_mbed.py	/^    def __run_request(ip, port, request):$/;"	m	class:HostTestPluginPowerCycleResetMethod	file:
+__send_echo_uuid	host_tests/echo.py	/^    def __send_echo_uuid(self):$/;"	m	class:EchoTest	file:
+__send_sync	host_tests_conn_proxy/conn_proxy.py	/^    def __send_sync(timeout=None):$/;"	f	function:conn_process	file:
+__str__	host_tests_plugins/host_test_registry.py	/^    def __str__(self):$/;"	m	class:HostTestRegistry	file:
+_callback_echo	host_tests/echo.py	/^    def _callback_echo(self, key, value, timestamp):$/;"	m	class:EchoTest
+_callback_echo_count	host_tests/echo.py	/^    def _callback_echo_count(self, key, value, timestamp):$/;"	m	class:EchoTest
+_callback_end	host_tests/rtc_auto.py	/^    def _callback_end(self, key, value, timestamp):$/;"	m	class:RTCTest
+_callback_exit	host_tests/wait_us_auto.py	/^    def _callback_exit(self, key, value, timeout):$/;"	m	class:WaitusTest
+_callback_hello_world	host_tests/hello_auto.py	/^    def _callback_hello_world(self, key, value, timestamp):$/;"	m	class:HelloTest
+_callback_result	host_tests/dev_null_auto.py	/^    def _callback_result(self, key, value, timestamp):$/;"	m	class:DevNullTest
+_callback_rtc	host_tests/rtc_auto.py	/^    def _callback_rtc(self, key, value, timestamp):$/;"	m	class:RTCTest
+_callback_tick	host_tests/wait_us_auto.py	/^    def _callback_tick(self, key, value, timestamp):$/;"	m	class:WaitusTest
+_callback_timestamp	host_tests/rtc_auto.py	/^    def _callback_timestamp(self, key, value, timestamp):$/;"	m	class:RTCTest
+_callback_to_stdout	host_tests/dev_null_auto.py	/^    def _callback_to_stdout(self, key, value, timestamp):$/;"	m	class:DevNullTest
+_enum_continguous_addr_start_end	host_tests_plugins/module_copy_pyocd.py	/^def _enum_continguous_addr_start_end(addr_list):$/;"	f
+_safe_sendBreak_v2_7	host_tests_plugins/module_reset_mbed.py	/^    def _safe_sendBreak_v2_7(self, serial):$/;"	m	class:HostTestPluginResetMethod_Mbed
+_safe_sendBreak_v3_0	host_tests_plugins/module_reset_mbed.py	/^    def _safe_sendBreak_v3_0(self, serial):$/;"	m	class:HostTestPluginResetMethod_Mbed
+append	host_tests_conn_proxy/conn_proxy.py	/^    def append(self, payload):$/;"	m	class:KiViBufferWalker
+base_host_test_inited	host_tests/base_host_test.py	/^    def base_host_test_inited(self):$/;"	m	class:BaseHostTest
+call_plugin	host_tests_plugins/__init__.py	/^def call_plugin(type, capability, *args, **kwargs):$/;"	f
+call_plugin	host_tests_plugins/host_test_registry.py	/^    def call_plugin(self, type, capability, *args, **kwargs):$/;"	m	class:HostTestRegistry
+callback__notify_prn	host_tests_runner/host_test_default.py	/^        def callback__notify_prn(key, value, timestamp):$/;"	f	function:DefaultTestSelector.run_test
+capabilities	host_tests_plugins/host_test_plugins.py	/^    capabilities = []           # Capabilities names: what plugin can achieve$/;"	v	class:HostTestPluginBase
+capabilities	host_tests_plugins/module_copy_jn51xx.py	/^    capabilities = ['jn51xx']$/;"	v	class:HostTestPluginCopyMethod_JN51xx
+capabilities	host_tests_plugins/module_copy_mbed.py	/^    capabilities = ['shutil', 'default']$/;"	v	class:HostTestPluginCopyMethod_Mbed
+capabilities	host_tests_plugins/module_copy_mps2.py	/^    capabilities = ['mps2']$/;"	v	class:HostTestPluginCopyMethod_MPS2
+capabilities	host_tests_plugins/module_copy_pyocd.py	/^    capabilities = ['pyocd']$/;"	v	class:HostTestPluginCopyMethod_pyOCD
+capabilities	host_tests_plugins/module_copy_shell.py	/^    capabilities = ['shell', 'cp', 'copy', 'xcopy']$/;"	v	class:HostTestPluginCopyMethod_Shell
+capabilities	host_tests_plugins/module_copy_silabs.py	/^    capabilities = ['eACommander', 'eACommander-usb']$/;"	v	class:HostTestPluginCopyMethod_Silabs
+capabilities	host_tests_plugins/module_copy_stlink.py	/^    capabilities = ['stlink']$/;"	v	class:HostTestPluginCopyMethod_Stlink
+capabilities	host_tests_plugins/module_copy_ublox.py	/^    capabilities = ['ublox']$/;"	v	class:HostTestPluginCopyMethod_ublox
+capabilities	host_tests_plugins/module_power_cycle_mbed.py	/^    capabilities = ['power_cycle']$/;"	v	class:HostTestPluginPowerCycleResetMethod
+capabilities	host_tests_plugins/module_reset_jn51xx.py	/^    capabilities = ['jn51xx']$/;"	v	class:HostTestPluginResetMethod_JN51xx
+capabilities	host_tests_plugins/module_reset_mbed.py	/^    capabilities = ['default']$/;"	v	class:HostTestPluginResetMethod_Mbed
+capabilities	host_tests_plugins/module_reset_mps2.py	/^    capabilities = ['reboot.txt']$/;"	v	class:HostTestPluginResetMethod_MPS2
+capabilities	host_tests_plugins/module_reset_pyocd.py	/^    capabilities = ['pyocd']$/;"	v	class:HostTestPluginResetMethod_pyOCD
+capabilities	host_tests_plugins/module_reset_silabs.py	/^    capabilities = ['eACommander', 'eACommander-usb']$/;"	v	class:HostTestPluginResetMethod_SiLabs
+capabilities	host_tests_plugins/module_reset_stlink.py	/^    capabilities = ['stlink']$/;"	v	class:HostTestPluginResetMethod_Stlink
+capabilities	host_tests_plugins/module_reset_ublox.py	/^    capabilities = ['ublox']$/;"	v	class:HostTestPluginResetMethod_ublox
+check_flash_error	host_tests_runner/mbed_base.py	/^        def check_flash_error(target_id, disk, initial_remount_count):$/;"	f	function:Mbed.copy_image
+check_mount_point_ready	host_tests_plugins/host_test_plugins.py	/^    def check_mount_point_ready(self, destination_disk, init_delay=0.2, loop_delay=0.25, target_id=None, timeout=60):$/;"	m	class:HostTestPluginBase
+check_parameters	host_tests_plugins/host_test_plugins.py	/^    def check_parameters(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginBase
+check_serial_port_ready	host_tests_plugins/host_test_plugins.py	/^    def check_serial_port_ready(self, serial_port, target_id=None, timeout=60):$/;"	m	class:HostTestPluginBase
+check_strftimes_format	host_tests/rtc_auto.py	/^        def check_strftimes_format(t):$/;"	f	function:RTCTest.result
+cmd_parser_setup	mbedflsh.py	/^def cmd_parser_setup():$/;"	f
+conn_primitive_factory	host_tests_conn_proxy/conn_proxy.py	/^def conn_primitive_factory(conn_resource, config, event_queue, logger):$/;"	f
+conn_process	host_tests_conn_proxy/conn_proxy.py	/^def conn_process(event_queue, dut_event_queue, config):$/;"	f
+connected	host_tests_conn_proxy/conn_primitive.py	/^    def connected(self):$/;"	m	class:ConnectorPrimitive
+connected	host_tests_conn_proxy/conn_primitive_remote.py	/^    def connected(self):$/;"	m	class:RemoteConnectorPrimitive
+connected	host_tests_conn_proxy/conn_primitive_serial.py	/^    def connected(self):$/;"	m	class:SerialConnectorPrimitive
+copy_image	host_tests_runner/mbed_base.py	/^    def copy_image(self, image_path=None, disk=None, copy_method=None, port=None, retry_copy=5):$/;"	m	class:Mbed
+copy_image_raw	host_tests_runner/mbed_base.py	/^    def copy_image_raw(self, image_path=None, disk=None, copy_method=None, port=None):$/;"	m	class:Mbed
+count	host_tests/echo.py	/^    count = 0$/;"	v	class:EchoTest
+decorator	host_tests/base_host_test.py	/^    def decorator(func):$/;"	f	function:event_callback
+echo_count	host_tests/echo.py	/^    echo_count = 0$/;"	v	class:EchoTest
+enum	host_tests_runner/host_test.py	/^    def enum(self, **enums):$/;"	m	class:HostTestResults
+enum_host_tests	__init__.py	/^def enum_host_tests(path, verbose=False):$/;"	f
+error	host_tests_conn_proxy/conn_primitive.py	/^    def error(self):$/;"	m	class:ConnectorPrimitive
+event_callback	host_tests/base_host_test.py	/^def event_callback(key):$/;"	f
+execute	host_tests_plugins/host_test_plugins.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginBase
+execute	host_tests_plugins/module_copy_jn51xx.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_JN51xx
+execute	host_tests_plugins/module_copy_mbed.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Mbed
+execute	host_tests_plugins/module_copy_mps2.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_MPS2
+execute	host_tests_plugins/module_copy_pyocd.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_pyOCD
+execute	host_tests_plugins/module_copy_shell.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Shell
+execute	host_tests_plugins/module_copy_silabs.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Silabs
+execute	host_tests_plugins/module_copy_stlink.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Stlink
+execute	host_tests_plugins/module_copy_ublox.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_ublox
+execute	host_tests_plugins/module_power_cycle_mbed.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginPowerCycleResetMethod
+execute	host_tests_plugins/module_reset_jn51xx.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_JN51xx
+execute	host_tests_plugins/module_reset_mbed.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_Mbed
+execute	host_tests_plugins/module_reset_mps2.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_MPS2
+execute	host_tests_plugins/module_reset_pyocd.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_pyOCD
+execute	host_tests_plugins/module_reset_silabs.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_SiLabs
+execute	host_tests_plugins/module_reset_stlink.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_Stlink
+execute	host_tests_plugins/module_reset_ublox.py	/^    def execute(self, capability, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_ublox
+execute	host_tests_runner/host_test_default.py	/^    def execute(self):$/;"	m	class:DefaultTestSelector
+finish	host_tests_conn_proxy/conn_primitive.py	/^    def finish(self):$/;"	m	class:ConnectorPrimitive
+finish	host_tests_conn_proxy/conn_primitive_remote.py	/^    def finish(self):$/;"	m	class:RemoteConnectorPrimitive
+finish	host_tests_conn_proxy/conn_primitive_serial.py	/^    def finish(self):$/;"	m	class:SerialConnectorPrimitive
+finish	host_tests_runner/host_test.py	/^    def finish(self):$/;"	m	class:Test
+flash_dev	host_tests_toolbox/host_functional.py	/^def flash_dev(disk=None,$/;"	f
+flush	host_tests_conn_proxy/conn_primitive.py	/^    def flush(self):$/;"	m	class:ConnectorPrimitive
+flush	host_tests_conn_proxy/conn_primitive_remote.py	/^    def flush(self):$/;"	m	class:RemoteConnectorPrimitive
+flush	host_tests_conn_proxy/conn_primitive_serial.py	/^    def flush(self):$/;"	m	class:SerialConnectorPrimitive
+generic_mbed_copy	host_tests_plugins/module_copy_mbed.py	/^    def generic_mbed_copy(self, image_path, destination_disk):$/;"	m	class:HostTestPluginCopyMethod_Mbed
+get_callbacks	host_tests/base_host_test.py	/^    def get_callbacks(self):$/;"	m	class:HostTestCallbackBase
+get_config_item	host_tests/base_host_test.py	/^    def get_config_item(self, name):$/;"	m	class:BaseHostTestAbstract
+get_dict	host_tests_plugins/host_test_registry.py	/^    def get_dict(self):$/;"	m	class:HostTestRegistry
+get_hello_string	host_tests_runner/host_test.py	/^    def get_hello_string(self):$/;"	m	class:Test
+get_host_test	__init__.py	/^def get_host_test(ht_name):$/;"	f
+get_host_test	host_tests_registry/host_registry.py	/^    def get_host_test(self, ht_name):$/;"	m	class:HostRegistry
+get_host_test_list	__init__.py	/^def get_host_test_list():$/;"	f
+get_plugin_caps	__init__.py	/^def get_plugin_caps(methods=None):$/;"	f
+get_plugin_caps	host_tests_plugins/__init__.py	/^def get_plugin_caps(type):$/;"	f
+get_plugin_caps	host_tests_plugins/host_test_registry.py	/^    def get_plugin_caps(self, type):$/;"	m	class:HostTestRegistry
+get_plugin_info	host_tests_plugins/__init__.py	/^def get_plugin_info():$/;"	f
+get_pyserial_version	host_tests_plugins/module_reset_mbed.py	/^    def get_pyserial_version(self, pyserial_version):$/;"	m	class:HostTestPluginResetMethod_Mbed
+get_remount_count	host_tests_runner/mbed_base.py	/^        def get_remount_count(disk_path, tries=2):$/;"	f	function:Mbed.copy_image
+get_string	host_tests_plugins/host_test_registry.py	/^    def get_string(self):$/;"	m	class:HostTestRegistry
+get_test_result_int	host_tests_runner/host_test.py	/^    def get_test_result_int(self, test_result_str):$/;"	m	class:HostTestResults
+handle_send_break_cmd	host_tests_toolbox/host_functional.py	/^def handle_send_break_cmd(port,$/;"	f
+hw_reset	host_tests_runner/mbed_base.py	/^    def hw_reset(self):$/;"	m	class:Mbed
+init_host_test_cli_params	__init__.py	/^def init_host_test_cli_params():$/;"	f
+is_host_test	__init__.py	/^def is_host_test(ht_name):$/;"	f
+is_host_test	host_tests_registry/host_registry.py	/^    def is_host_test(self, ht_name):$/;"	m	class:HostRegistry
+is_host_test_obj_compatible	host_tests_runner/host_test_default.py	/^    def is_host_test_obj_compatible(self, obj_instance):$/;"	m	class:DefaultTestSelector
+is_os_supported	host_tests_plugins/host_test_plugins.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginBase
+is_os_supported	host_tests_plugins/module_copy_jn51xx.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginCopyMethod_JN51xx
+is_os_supported	host_tests_plugins/module_copy_stlink.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginCopyMethod_Stlink
+is_os_supported	host_tests_plugins/module_copy_ublox.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginCopyMethod_ublox
+is_os_supported	host_tests_plugins/module_reset_jn51xx.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginResetMethod_JN51xx
+is_os_supported	host_tests_plugins/module_reset_stlink.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginResetMethod_Stlink
+is_os_supported	host_tests_plugins/module_reset_ublox.py	/^    def is_os_supported(self, os_name=None):$/;"	m	class:HostTestPluginResetMethod_ublox
+load_plugin	host_tests_plugins/host_test_registry.py	/^    def load_plugin(self, name):$/;"	m	class:HostTestRegistry
+load_plugin	host_tests_plugins/module_copy_jn51xx.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_mbed.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_mps2.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_pyocd.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_shell.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_silabs.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_stlink.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_copy_ublox.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_power_cycle_mbed.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_jn51xx.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_mbed.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_mps2.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_pyocd.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_silabs.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_stlink.py	/^def load_plugin():$/;"	f
+load_plugin	host_tests_plugins/module_reset_ublox.py	/^def load_plugin():$/;"	f
+log	host_tests/base_host_test.py	/^    def log(self, text):$/;"	m	class:BaseHostTestAbstract
+main	mbedflsh.py	/^def main():$/;"	f
+main	mbedhtrun.py	/^def main():$/;"	f
+match_log	host_tests_runner/host_test_default.py	/^    def match_log(self, line):$/;"	m	class:DefaultTestSelector
+mbed_os_info	host_tests_plugins/host_test_plugins.py	/^    def mbed_os_info(self):$/;"	m	class:HostTestPluginBase
+mbed_os_support	host_tests_plugins/host_test_plugins.py	/^    def mbed_os_support(self):$/;"	m	class:HostTestPluginBase
+mps2_bin_copy	host_tests_plugins/module_copy_mps2.py	/^    def mps2_bin_copy(self, image_path, destination_disk):$/;"	m	class:HostTestPluginCopyMethod_MPS2
+name	host_tests/base_host_test.py	/^    name = ''                   # name of the host test (used for local registration)$/;"	v	class:BaseHostTestAbstract
+name	host_tests_plugins/host_test_plugins.py	/^    name = "HostTestPluginBase" # Plugin name, can be plugin class name$/;"	v	class:HostTestPluginBase
+name	host_tests_plugins/module_copy_jn51xx.py	/^    name = 'HostTestPluginCopyMethod_JN51xx'$/;"	v	class:HostTestPluginCopyMethod_JN51xx
+name	host_tests_plugins/module_copy_mbed.py	/^    name = 'HostTestPluginCopyMethod_Mbed'$/;"	v	class:HostTestPluginCopyMethod_Mbed
+name	host_tests_plugins/module_copy_mps2.py	/^    name = 'HostTestPluginCopyMethod_MPS2'$/;"	v	class:HostTestPluginCopyMethod_MPS2
+name	host_tests_plugins/module_copy_pyocd.py	/^    name = 'HostTestPluginCopyMethod_pyOCD'$/;"	v	class:HostTestPluginCopyMethod_pyOCD
+name	host_tests_plugins/module_copy_shell.py	/^    name = 'HostTestPluginCopyMethod_Shell'$/;"	v	class:HostTestPluginCopyMethod_Shell
+name	host_tests_plugins/module_copy_silabs.py	/^    name = 'HostTestPluginCopyMethod_Silabs'$/;"	v	class:HostTestPluginCopyMethod_Silabs
+name	host_tests_plugins/module_copy_stlink.py	/^    name = 'HostTestPluginCopyMethod_Stlink'$/;"	v	class:HostTestPluginCopyMethod_Stlink
+name	host_tests_plugins/module_copy_ublox.py	/^    name = 'HostTestPluginCopyMethod_ublox'$/;"	v	class:HostTestPluginCopyMethod_ublox
+name	host_tests_plugins/module_power_cycle_mbed.py	/^    name = 'HostTestPluginPowerCycleResetMethod'$/;"	v	class:HostTestPluginPowerCycleResetMethod
+name	host_tests_plugins/module_reset_jn51xx.py	/^    name = 'HostTestPluginResetMethod_JN51xx'$/;"	v	class:HostTestPluginResetMethod_JN51xx
+name	host_tests_plugins/module_reset_mbed.py	/^    name = 'HostTestPluginResetMethod_Mbed'$/;"	v	class:HostTestPluginResetMethod_Mbed
+name	host_tests_plugins/module_reset_mps2.py	/^    name = 'HostTestPluginResetMethod_MPS2'$/;"	v	class:HostTestPluginResetMethod_MPS2
+name	host_tests_plugins/module_reset_pyocd.py	/^    name = 'HostTestPluginResetMethod_pyOCD'$/;"	v	class:HostTestPluginResetMethod_pyOCD
+name	host_tests_plugins/module_reset_silabs.py	/^    name = 'HostTestPluginResetMethod_SiLabs'$/;"	v	class:HostTestPluginResetMethod_SiLabs
+name	host_tests_plugins/module_reset_stlink.py	/^    name = 'HostTestPluginResetMethod_Stlink'$/;"	v	class:HostTestPluginResetMethod_Stlink
+name	host_tests_plugins/module_reset_ublox.py	/^    name = 'HostTestPluginResetMethod_ublox'$/;"	v	class:HostTestPluginResetMethod_ublox
+notify	host_tests_runner/host_test.py	/^    def notify(self, msg):$/;"	m	class:Test
+notify_complete	host_tests/base_host_test.py	/^    def notify_complete(self, result=None):$/;"	m	class:BaseHostTestAbstract
+notify_conn_lost	host_tests/base_host_test.py	/^    def notify_conn_lost(self, text):$/;"	m	class:BaseHostTestAbstract
+poll_state	host_tests_plugins/module_power_cycle_mbed.py	/^        def poll_state(required_state):$/;"	f	function:HostTestPluginPowerCycleResetMethod.__hw_reset
+pop_kv	host_tests_conn_proxy/conn_proxy.py	/^    def pop_kv(self):$/;"	m	class:KiViBufferWalker
+print_error	host_tests_plugins/host_test_registry.py	/^    def print_error(self, text):$/;"	m	class:HostTestRegistry
+print_ht_list	__init__.py	/^def print_ht_list(verbose=False):$/;"	f
+print_plugin_char	host_tests_plugins/host_test_plugins.py	/^    def print_plugin_char(self, char):$/;"	m	class:HostTestPluginBase
+print_plugin_error	host_tests_plugins/host_test_plugins.py	/^    def print_plugin_error(self, text):$/;"	m	class:HostTestPluginBase
+print_plugin_info	host_tests_plugins/__init__.py	/^def print_plugin_info():$/;"	f
+print_plugin_info	host_tests_plugins/host_test_plugins.py	/^    def print_plugin_info(self, text, NL=True):$/;"	m	class:HostTestPluginBase
+print_result	host_tests_runner/host_test.py	/^    def print_result(self, result):$/;"	m	class:Test
+process_code_coverage	host_tests_runner/host_test_default.py	/^        def process_code_coverage(key, value, timestamp):$/;"	f	function:DefaultTestSelector.run_test
+re_detect_micro_name	host_tests/detect_auto.py	/^    re_detect_micro_name = re.compile(PATTERN_MICRO_NAME)$/;"	v	class:DetectPlatformTest
+re_detect_rtc_value	host_tests/rtc_auto.py	/^    re_detect_rtc_value = re.compile(PATTERN_RTC_VALUE)$/;"	v	class:RTCTest
+read	host_tests_conn_proxy/conn_primitive.py	/^    def read(self, count):$/;"	m	class:ConnectorPrimitive
+read	host_tests_conn_proxy/conn_primitive_remote.py	/^    def read(self, count):$/;"	m	class:RemoteConnectorPrimitive
+read	host_tests_conn_proxy/conn_primitive_serial.py	/^    def read(self, count):$/;"	m	class:SerialConnectorPrimitive
+register_callback	host_tests/base_host_test.py	/^    def register_callback(self, key, callback, force=False):$/;"	m	class:HostTestCallbackBase
+register_host_test	host_tests_registry/host_registry.py	/^    def register_host_test(self, ht_name, ht_object):$/;"	m	class:HostRegistry
+register_plugin	host_tests_plugins/host_test_registry.py	/^    def register_plugin(self, plugin):$/;"	m	class:HostTestRegistry
+required_parameters	host_tests_plugins/host_test_plugins.py	/^    required_parameters = []    # Parameters required for 'kwargs' in plugin APIs: e.g. self.execute()$/;"	v	class:HostTestPluginBase
+required_parameters	host_tests_plugins/module_copy_jn51xx.py	/^    required_parameters = ['image_path', 'serial']$/;"	v	class:HostTestPluginCopyMethod_JN51xx
+required_parameters	host_tests_plugins/module_copy_mbed.py	/^    required_parameters = ['image_path', 'destination_disk']$/;"	v	class:HostTestPluginCopyMethod_Mbed
+required_parameters	host_tests_plugins/module_copy_mps2.py	/^    required_parameters = ['image_path', 'destination_disk']$/;"	v	class:HostTestPluginCopyMethod_MPS2
+required_parameters	host_tests_plugins/module_copy_pyocd.py	/^    required_parameters = ['image_path', 'target_id']$/;"	v	class:HostTestPluginCopyMethod_pyOCD
+required_parameters	host_tests_plugins/module_copy_shell.py	/^    required_parameters = ['image_path', 'destination_disk']$/;"	v	class:HostTestPluginCopyMethod_Shell
+required_parameters	host_tests_plugins/module_copy_silabs.py	/^    required_parameters = ['image_path', 'destination_disk']$/;"	v	class:HostTestPluginCopyMethod_Silabs
+required_parameters	host_tests_plugins/module_copy_stlink.py	/^    required_parameters = ['image_path']$/;"	v	class:HostTestPluginCopyMethod_Stlink
+required_parameters	host_tests_plugins/module_copy_ublox.py	/^    required_parameters = ['image_path']$/;"	v	class:HostTestPluginCopyMethod_ublox
+required_parameters	host_tests_plugins/module_power_cycle_mbed.py	/^    required_parameters = ['target_id', 'device_info']$/;"	v	class:HostTestPluginPowerCycleResetMethod
+required_parameters	host_tests_plugins/module_reset_jn51xx.py	/^    required_parameters = ['serial']$/;"	v	class:HostTestPluginResetMethod_JN51xx
+required_parameters	host_tests_plugins/module_reset_mbed.py	/^    required_parameters = ['serial']$/;"	v	class:HostTestPluginResetMethod_Mbed
+required_parameters	host_tests_plugins/module_reset_mps2.py	/^    required_parameters = ['disk']$/;"	v	class:HostTestPluginResetMethod_MPS2
+required_parameters	host_tests_plugins/module_reset_pyocd.py	/^    required_parameters = ['target_id']$/;"	v	class:HostTestPluginResetMethod_pyOCD
+required_parameters	host_tests_plugins/module_reset_silabs.py	/^    required_parameters = ['disk']$/;"	v	class:HostTestPluginResetMethod_SiLabs
+required_parameters	host_tests_plugins/module_reset_stlink.py	/^    required_parameters = []$/;"	v	class:HostTestPluginResetMethod_Stlink
+required_parameters	host_tests_plugins/module_reset_ublox.py	/^    required_parameters = []$/;"	v	class:HostTestPluginResetMethod_ublox
+reset_dev	host_tests_toolbox/host_functional.py	/^def reset_dev(port=None,$/;"	f
+reset_dev_via_serial	host_tests_conn_proxy/conn_primitive_serial.py	/^    def reset_dev_via_serial(self, delay=1):$/;"	m	class:SerialConnectorPrimitive
+reset_dut	host_tests/base_host_test.py	/^    def reset_dut(self, value):$/;"	m	class:BaseHostTestAbstract
+result	host_tests/base_host_test.py	/^    def result(self):$/;"	m	class:BaseHostTestAbstract
+result	host_tests/base_host_test.py	/^    def result(self):$/;"	m	class:HostTestCallbackBase
+result	host_tests/detect_auto.py	/^    def result(self):$/;"	m	class:DetectPlatformTest
+result	host_tests/dev_null_auto.py	/^    def result(self):$/;"	m	class:DevNullTest
+result	host_tests/echo.py	/^    def result(self):$/;"	m	class:EchoTest
+result	host_tests/hello_auto.py	/^    def result(self):$/;"	m	class:HelloTest
+result	host_tests/rtc_auto.py	/^    def result(self):$/;"	m	class:RTCTest
+result	host_tests/wait_us_auto.py	/^    def result(self):$/;"	m	class:WaitusTest
+rtc_reads	host_tests/rtc_auto.py	/^    rtc_reads = []$/;"	v	class:RTCTest
+run	host_tests_runner/host_test.py	/^    def run(self):$/;"	m	class:Test
+run_command	host_tests_plugins/host_test_plugins.py	/^    def run_command(self, cmd, shell=True):$/;"	m	class:HostTestPluginBase
+run_test	host_tests_runner/host_test_default.py	/^    def run_test(self):$/;"	m	class:DefaultTestSelector
+safe_sendBreak	host_tests_plugins/module_reset_mbed.py	/^    def safe_sendBreak(self, serial):$/;"	m	class:HostTestPluginResetMethod_Mbed
+script_location	host_tests/base_host_test.py	/^    script_location = None      # Path to source file used to load host test$/;"	v	class:BaseHostTestAbstract
+search	host_tests_conn_proxy/conn_proxy.py	/^    def search(self):$/;"	m	class:KiViBufferWalker
+send_kv	host_tests/base_host_test.py	/^    def send_kv(self, key, value):$/;"	m	class:BaseHostTestAbstract
+setup	host_tests/base_host_test.py	/^    def setup(self):$/;"	m	class:BaseHostTestAbstract
+setup	host_tests/base_host_test.py	/^    def setup(self):$/;"	m	class:HostTestCallbackBase
+setup	host_tests/dev_null_auto.py	/^    def setup(self):$/;"	m	class:DevNullTest
+setup	host_tests/echo.py	/^    def setup(self):$/;"	m	class:EchoTest
+setup	host_tests/hello_auto.py	/^    def setup(self):$/;"	m	class:HelloTest
+setup	host_tests/rtc_auto.py	/^    def setup(self):$/;"	m	class:RTCTest
+setup	host_tests/wait_us_auto.py	/^    def setup(self):$/;"	m	class:WaitusTest
+setup	host_tests_plugins/host_test_plugins.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginBase
+setup	host_tests_plugins/module_copy_jn51xx.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_JN51xx
+setup	host_tests_plugins/module_copy_mbed.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Mbed
+setup	host_tests_plugins/module_copy_mps2.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_MPS2
+setup	host_tests_plugins/module_copy_pyocd.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_pyOCD
+setup	host_tests_plugins/module_copy_shell.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Shell
+setup	host_tests_plugins/module_copy_silabs.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Silabs
+setup	host_tests_plugins/module_copy_stlink.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_Stlink
+setup	host_tests_plugins/module_copy_ublox.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginCopyMethod_ublox
+setup	host_tests_plugins/module_power_cycle_mbed.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginPowerCycleResetMethod
+setup	host_tests_plugins/module_reset_jn51xx.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_JN51xx
+setup	host_tests_plugins/module_reset_mbed.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_Mbed
+setup	host_tests_plugins/module_reset_mps2.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_MPS2
+setup	host_tests_plugins/module_reset_pyocd.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_pyOCD
+setup	host_tests_plugins/module_reset_silabs.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_SiLabs
+setup	host_tests_plugins/module_reset_stlink.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_Stlink
+setup	host_tests_plugins/module_reset_ublox.py	/^    def setup(self, *args, **kwargs):$/;"	m	class:HostTestPluginResetMethod_ublox
+setup	host_tests_runner/host_test.py	/^    def setup(self):$/;"	m	class:Test
+setup_communication	host_tests/base_host_test.py	/^    def setup_communication(self, event_queue, dut_event_queue, config={}):$/;"	m	class:BaseHostTestAbstract
+stable	host_tests_plugins/host_test_plugins.py	/^    stable = False              # Determine if plugin is stable and can be used$/;"	v	class:HostTestPluginBase
+stable	host_tests_plugins/module_copy_mbed.py	/^    stable = True$/;"	v	class:HostTestPluginCopyMethod_Mbed
+stable	host_tests_plugins/module_copy_mps2.py	/^    stable = True$/;"	v	class:HostTestPluginCopyMethod_MPS2
+stable	host_tests_plugins/module_copy_pyocd.py	/^    stable = True$/;"	v	class:HostTestPluginCopyMethod_pyOCD
+stable	host_tests_plugins/module_copy_shell.py	/^    stable = True$/;"	v	class:HostTestPluginCopyMethod_Shell
+stable	host_tests_plugins/module_copy_silabs.py	/^    stable = True$/;"	v	class:HostTestPluginCopyMethod_Silabs
+stable	host_tests_plugins/module_power_cycle_mbed.py	/^    stable = True$/;"	v	class:HostTestPluginPowerCycleResetMethod
+stable	host_tests_plugins/module_reset_jn51xx.py	/^    stable = False$/;"	v	class:HostTestPluginResetMethod_JN51xx
+stable	host_tests_plugins/module_reset_mbed.py	/^    stable = True$/;"	v	class:HostTestPluginResetMethod_Mbed
+stable	host_tests_plugins/module_reset_pyocd.py	/^    stable = True$/;"	v	class:HostTestPluginResetMethod_pyOCD
+stable	host_tests_plugins/module_reset_silabs.py	/^    stable = True$/;"	v	class:HostTestPluginResetMethod_SiLabs
+stable	host_tests_plugins/module_reset_stlink.py	/^    stable = False$/;"	v	class:HostTestPluginResetMethod_Stlink
+stable	host_tests_plugins/module_reset_ublox.py	/^    stable = False$/;"	v	class:HostTestPluginResetMethod_ublox
+start_conn_process	host_tests_runner/host_test_default.py	/^        def start_conn_process():$/;"	f	function:DefaultTestSelector.run_test
+sub_timestamps	host_tests/wait_us_auto.py	/^        def sub_timestamps(t1, t2):$/;"	f	function:WaitusTest.result
+teardown	host_tests/base_host_test.py	/^    def teardown(self):$/;"	m	class:BaseHostTestAbstract
+teardown	host_tests/base_host_test.py	/^    def teardown(self):$/;"	m	class:HostTestCallbackBase
+teardown	host_tests/echo.py	/^    def teardown(self):$/;"	m	class:EchoTest
+teardown	host_tests/hello_auto.py	/^    def teardown(self):$/;"	m	class:HelloTest
+teardown	host_tests/rtc_auto.py	/^    def teardown(self):$/;"	m	class:RTCTest
+teardown	host_tests/wait_us_auto.py	/^    def teardown(self):$/;"	m	class:WaitusTest
+test	host_tests/detect_auto.py	/^    def test(self, selftest):$/;"	m	class:DetectPlatformTest
+ticks	host_tests/wait_us_auto.py	/^    ticks = []$/;"	v	class:WaitusTest
+timestamp	host_tests/rtc_auto.py	/^    timestamp = None$/;"	v	class:RTCTest
+touch_file	host_tests_plugins/module_reset_mps2.py	/^    def touch_file(self, path):$/;"	m	class:HostTestPluginResetMethod_MPS2
+type	host_tests_plugins/host_test_plugins.py	/^    type = "BasePlugin"         # Plugin type: ResetMethod, CopyMethod etc.$/;"	v	class:HostTestPluginBase
+type	host_tests_plugins/module_copy_jn51xx.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_JN51xx
+type	host_tests_plugins/module_copy_mbed.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_Mbed
+type	host_tests_plugins/module_copy_mps2.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_MPS2
+type	host_tests_plugins/module_copy_pyocd.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_pyOCD
+type	host_tests_plugins/module_copy_shell.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_Shell
+type	host_tests_plugins/module_copy_silabs.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_Silabs
+type	host_tests_plugins/module_copy_stlink.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_Stlink
+type	host_tests_plugins/module_copy_ublox.py	/^    type = 'CopyMethod'$/;"	v	class:HostTestPluginCopyMethod_ublox
+type	host_tests_plugins/module_power_cycle_mbed.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginPowerCycleResetMethod
+type	host_tests_plugins/module_reset_jn51xx.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_JN51xx
+type	host_tests_plugins/module_reset_mbed.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_Mbed
+type	host_tests_plugins/module_reset_mps2.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_MPS2
+type	host_tests_plugins/module_reset_pyocd.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_pyOCD
+type	host_tests_plugins/module_reset_silabs.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_SiLabs
+type	host_tests_plugins/module_reset_stlink.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_Stlink
+type	host_tests_plugins/module_reset_ublox.py	/^    type = 'ResetMethod'$/;"	v	class:HostTestPluginResetMethod_ublox
+unregister_host_test	host_tests_registry/host_registry.py	/^    def unregister_host_test(self, ht_name):$/;"	m	class:HostRegistry
+uuid_recv	host_tests/echo.py	/^    uuid_recv = []$/;"	v	class:EchoTest
+uuid_sent	host_tests/echo.py	/^    uuid_sent = []$/;"	v	class:EchoTest
+write	host_tests_conn_proxy/conn_primitive.py	/^    def write(self, payload, log=False):$/;"	m	class:ConnectorPrimitive
+write	host_tests_conn_proxy/conn_primitive_remote.py	/^    def write(self, payload, log=False):$/;"	m	class:RemoteConnectorPrimitive
+write	host_tests_conn_proxy/conn_primitive_serial.py	/^    def write(self, payload, log=False):$/;"	m	class:SerialConnectorPrimitive
+write_kv	host_tests_conn_proxy/conn_primitive.py	/^    def write_kv(self, key, value):$/;"	m	class:ConnectorPrimitive
